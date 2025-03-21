@@ -10,9 +10,9 @@ public class Box<A, B, C>
         this.item3 = item3;
     }
 
-    int sumOfNums()
+    float sumOfNums()
     {
-        int sum = 0;
+        float sum = 0;
 
         if (item1 instanceof Number) {
             sum += ((Number) item1).floatValue();
